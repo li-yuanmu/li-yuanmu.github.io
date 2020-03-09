@@ -1,134 +1,128 @@
-
 <!DOCTYPE html>
 <html>
   <head>
-    
-<meta charset="utf-8" >
+    <meta charset="utf-8" >
 
 <title>这是世界上是最帅人的网站 | 李远沐的个人博客</title>
-<meta name="description" content="无论走到哪里，都应该记住，
-过去都是假的。">
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="shortcut icon" href="https://li-yuanmu.github.io/favicon.ico?v=1583731171773">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+<link rel="shortcut icon" href="https://li-yuanmu.github.io/favicon.ico?v=1583731280127">
 <link rel="stylesheet" href="https://li-yuanmu.github.io/styles/main.css">
 
 
 
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
 
 
 
+    <meta name="description" content="我是王佳丽的老公。GP(k,m)\mathcal{GP}(k,m)GP(k,m)
+..." />
+    <meta name="keywords" content="" />
   </head>
   <body>
     <div id="app" class="main">
-      <div class="site-header-container">
-  <div class="site-header">
-    <div class="left">
-      <a href="https://li-yuanmu.github.io">
-        <img class="avatar" src="https://li-yuanmu.github.io/images/avatar.png?v=1583731171773" alt="" width="32px" height="32px">
-      </a>
-      <a href="https://li-yuanmu.github.io">
+
+      <div class="sidebar" :class="{ 'full-height': menuVisible }">
+  <div class="top-container" data-aos="fade-right">
+    <div class="top-header-container">
+      <a class="site-title-container" href="https://li-yuanmu.github.io">
+        <img src="https://li-yuanmu.github.io/images/avatar.png?v=1583731280127" class="site-logo">
         <h1 class="site-title">李远沐的个人博客</h1>
       </a>
+      <div class="menu-btn" @click="menuVisible = !menuVisible">
+        <div class="line"></div>
+      </div>
     </div>
-    <div class="right">
-      <transition name="fade">
-        <i class="icon" :class="{ 'icon-close-outline': menuVisible, 'icon-menu-outline': !menuVisible }" @click="menuVisible = !menuVisible"></i>
-      </transition>
-    </div>
-  </div>
-</div>
-
-<transition name="fade">
-  <div class="menu-container" style="display: none;" v-show="menuVisible">
-    <div class="menu-list">
+    <div>
       
         
-          <a href="/" class="menu purple-link">
+          <a href="/" class="site-nav">
             首页
           </a>
         
       
         
-          <a href="/archives" class="menu purple-link">
+          <a href="/archives" class="site-nav">
             归档
           </a>
         
       
         
-          <a href="/tags" class="menu purple-link">
+          <a href="/tags" class="site-nav">
             标签
           </a>
         
       
         
-          <a href="/post/about" class="menu purple-link">
+          <a href="/post/about" class="site-nav">
             关于
           </a>
         
       
     </div>
   </div>
-</transition>
-
-
-      <div class="content-container">
-        <div class="post-detail">
-          
-          <h2 class="post-title">这是世界上是最帅人的网站</h2>
-          <div class="post-info post-detail-info">
-            <span><i class="icon-calendar-outline"></i> 2020-03-09</span>
-            
-          </div>
-          <div class="post-content">
-            <p>我是王佳丽的老公。<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mrow><mi mathvariant="script">G</mi><mi mathvariant="script">P</mi></mrow><mo>(</mo><mi>k</mi><mo separator="true">,</mo><mi>m</mi><mo>)</mo></mrow><annotation encoding="application/x-tex">\mathcal{GP}(k,m)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord"><span class="mord mathcal" style="margin-right:0.0593em;">G</span><span class="mord mathcal" style="margin-right:0.08222em;">P</span></span><span class="mopen">(</span><span class="mord mathdefault" style="margin-right:0.03148em;">k</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord mathdefault">m</span><span class="mclose">)</span></span></span></span></p>
-
-          </div>
-        </div>
-
+  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
+    <div class="social-container">
+      
         
-          <div class="next-post">
-            <a class="purple-link" href="https://li-yuanmu.github.io/post/variational/">
-              <h3 class="post-title">
-                下一篇：变分法总结
-              </h3>
-            </a>
-          </div>
-          
-      </div>
-
       
-
-      <div class="site-footer">
-  <div class="slogan">无论走到哪里，都应该记住，
-过去都是假的。</div>
-  <div class="social-container">
-    
+        
       
-    
+        
       
-    
+        
       
-    
+        
       
-    
-      
-    
+    </div>
+    <div class="site-description">
+      无论走到哪里，都应该记住，
+过去都是假的。
+    </div>
+    <div class="site-footer">
+       | <a class="rss" href="https://li-yuanmu.github.io/atom.xml" target="_blank">RSS</a>
+    </div>
   </div>
-   | <a class="rss" href="https://li-yuanmu.github.io/atom.xml" target="_blank">RSS</a>
 </div>
 
 
-    </div>
-    <script type="application/javascript">
+      <div class="main-container">
+        <div class="content-container" data-aos="fade-up">
+          <div class="post-detail">
+            <h2 class="post-title">这是世界上是最帅人的网站</h2>
+            <div class="post-date">2020-03-09</div>
+            
+            <div class="post-content" v-pre>
+              <p>我是王佳丽的老公。<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mrow><mi mathvariant="script">G</mi><mi mathvariant="script">P</mi></mrow><mo>(</mo><mi>k</mi><mo separator="true">,</mo><mi>m</mi><mo>)</mo></mrow><annotation encoding="application/x-tex">\mathcal{GP}(k,m)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord"><span class="mord mathcal" style="margin-right:0.0593em;">G</span><span class="mord mathcal" style="margin-right:0.08222em;">P</span></span><span class="mopen">(</span><span class="mord mathdefault" style="margin-right:0.03148em;">k</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord mathdefault">m</span><span class="mclose">)</span></span></span></span></p>
 
-hljs.initHighlightingOnLoad()
+            </div>
+            
+            
+              <div class="next-post">
+                <div class="next">下一篇</div>
+                <a href="https://li-yuanmu.github.io/post/variational/">
+                  <h3 class="post-title">
+                    变分法总结
+                  </h3>
+                </a>
+              </div>
+            
+
+            
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script type="application/javascript">
+
+AOS.init();
 
 var app = new Vue({
   el: '#app',
@@ -138,6 +132,8 @@ var app = new Vue({
 })
 
 </script>
+
+
 
 
 
