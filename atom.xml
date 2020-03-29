@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://li-yuanmu.github.io</id>
     <title>李远沐的个人博客</title>
-    <updated>2020-03-29T06:19:27.655Z</updated>
+    <updated>2020-03-29T06:20:40.758Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://li-yuanmu.github.io"/>
     <link rel="self" href="https://li-yuanmu.github.io/atom.xml"/>
@@ -59,11 +59,11 @@
 ]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[这是世界上是最帅人的网站]]></title>
+        <title type="html"><![CDATA[我的网站]]></title>
         <id>https://li-yuanmu.github.io/post/handsome/</id>
         <link href="https://li-yuanmu.github.io/post/handsome/">
         </link>
-        <updated>2020-03-09T10:03:50.000Z</updated>
+        <updated>2020-03-09T11:03:50.000Z</updated>
         <content type="html"><![CDATA[<p>我是王佳丽的老公。<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mrow><mi mathvariant="script">G</mi><mi mathvariant="script">P</mi></mrow><mo>(</mo><mi>k</mi><mo separator="true">,</mo><mi>m</mi><mo>)</mo></mrow><annotation encoding="application/x-tex">\mathcal{GP}(k,m)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord"><span class="mord mathcal" style="margin-right:0.0593em;">G</span><span class="mord mathcal" style="margin-right:0.08222em;">P</span></span><span class="mopen">(</span><span class="mord mathdefault" style="margin-right:0.03148em;">k</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord mathdefault">m</span><span class="mclose">)</span></span></span></span></p>
 ]]></content>
     </entry>
